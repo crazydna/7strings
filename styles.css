@@ -1,0 +1,248 @@
+/* styles.css */
+body {
+    background-color: #111; /* Dark background color for the entire page */
+    color: #fff; /* White text color for the entire page */
+    font-family: Arial, sans-serif;
+}
+
+.dark-header {
+    background-color: #333; /* Dark background color for the header */
+    padding: 20px 0; /* Add some padding to the top and bottom of the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dark-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.dark-header .logo img {
+    width: 50px; /* Adjust the logo width as needed */
+    height: 50px; /* Adjust the logo height as needed */
+    margin-right: 10px;
+}
+
+.dark-header h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0;
+    padding: 0;
+}
+
+.dark-header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dark-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.dark-header nav ul li:last-child {
+    margin-right: 0;
+}
+
+.dark-header nav a {
+    text-decoration: none;
+    color: #fff; /* White text color for the navigation links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.dark-header nav a:hover {
+    color: #ffcc00; /* Color for the navigation links on hover */
+}
+/* styles.css */
+body {
+    background-color: #111; /* Dark background color for the entire page */
+    color: #fff; /* White text color for the entire page */
+    font-family: Arial, sans-serif;
+}
+
+.dark-header {
+    /* CSS for the header (as previously provided) */
+}
+
+.hero {
+    background-image: url('hero-background.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* White text color for the hero section */
+    text-align: center;
+    padding: 100px 0; /* Add padding to adjust the content placement */
+}
+
+.hero-content {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffcc00; /* Yellow background color for the button */
+    color: #111; /* Dark text color for the button */
+    padding: 15px 30px;
+    font-size: 20px; /* Adjust the font size as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #f2b600; /* Darker yellow on hover */
+}
+/* styles.css */
+body {
+    /* CSS for the body (as previously provided) */
+}
+
+.dark-header {
+    /* CSS for the header (as previously provided) */
+}
+
+.hero {
+    /* CSS for the hero section (as previously provided) */
+}
+
+.courses {
+    background-color: #222; /* Dark background color for the course section */
+    color: #fff; /* White text color for the course section */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.course {
+    width: 300px; /* Adjust the course card width as needed */
+    margin: 20px;
+    padding: 20px;
+    background-color: #333; /* Dark background color for course cards */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.course h3 {
+    font-size: 20px; /* Adjust the font size as needed */
+    margin: 10px 0;
+}
+
+.course p {
+    font-size: 16px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffcc00; /* Yellow background color for the button */
+    color: #111; /* Dark text color for the button */
+    padding: 10px 20px;
+    font-size: 18px; /* Adjust the font size as needed */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #f2b600; 
+}
+/* Apply dark theme to the About Us section */
+.about-us.dark-section {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 80px 0; /* Add padding for spacing */
+    text-align: center;
+}
+
+/* Style the About Us content */
+.about-us-content {
+    max-width: 800px; /* Limit content width for readability */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+.about-us h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+/* Apply dark theme to the Contact Information section */
+.contact.dark-section {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 80px 0; /* Add padding for spacing */
+    text-align: center;
+}
+
+/* Style the Contact Information content */
+.contact-content {
+    max-width: 800px; /* Limit content width for readability */
+    margin: 0 auto; /* Center content horizontally */
+}
+
+.contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact ul li a {
+    color: #ff9900; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
